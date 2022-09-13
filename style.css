@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+}
+
+.header{
+  width: 80%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:auto;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+
+}
+
+body {
+    background-image: url("background.jpg");
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.header .logo h4 span{
+  color: #00ffc4;
+}
+
+
+.menubar .menu li{
+  margin: 0 20px;
+}
+
+.menubar .menu li a{
+  font-style: 21px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+
+.menubar .menu li a:hover {
+  color:#00ffc4;
+}
+
+.active{
+  color: gray;
+}
+
+.container .banner{
+  position: absolute;
+  top: 35%;
+  left: 0;
+  color: #fff;
+}
+
+.container .banner .app-text{
+  padding-left: 440px;
+}
+
+.container .banner .app-text h1{
+  font-style: 200px;
+  position: relative;
+  margin-top: 30px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.container .banner .app-text p{
+  font-style: 17px;
+  color: #00ffc4;
+  margin-bottom: 1rem;
+  
+}
+
+.container .banner .app-text p span{
+  color: gray;
+}
+
+.container .banner .app-text h1 span{
+  color:#00ffc4;
+}
+
+.container .copy-right{
+  position: absolute;
+  left: 50px;
+  bottom: 4%;
+}
+
+.container .copy-right p{
+  color: #fff;
+}
+
